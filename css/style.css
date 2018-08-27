@@ -1,0 +1,10 @@
+*{
+        background: #262222;
+    }
+
+
+#canvas {
+    border:1px solid #d3d3d3;
+    background-color: rgba(132, 205, 208, 0.65);
+    margin-left: 27%;
+}
