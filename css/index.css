@@ -1,0 +1,80 @@
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("neutralise.jpg");
+    margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-size: cover;
+}
+
+
+h1{
+margin-top: 10px;
+font-family: 'Hanalei Fill', cursive;
+font-size:100px;
+color:#ffb142;
+text-shadow: 2px 2px 3px #FF0000;
+}
+
+#rules1{
+font-family: 'Merienda One', cursive;
+padding-right:40vw;
+color:#fab1a0;
+font-size:50px;
+text-shadow: 0 0 3px #FF0000;
+}
+
+
+.rules{
+   font-family: 'Merienda One', cursive;
+    font-size:20px;
+    color:white;
+    list-style: none;
+}
+
+button{
+    background:#fdcb6e;
+    color:#273c75;
+    border:none;
+    position:relative;
+    text-decoration:none;
+    height:60px;
+    font-size:25px;
+    padding:10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    font-family: 'Merienda One', cursive;
+
+    outline:none;
+  }
+
+  button:hover{
+    background:#999da8;
+    color:#fdcb6e;
+  }
+
+
+  button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+
+#developers{
+font-family: 'Merienda One', cursive;
+font-size:40px;
+padding-right:35vw;
+color:#feca57;
+text-shadow: 0 0 3px #FF0000;
+  }
+
+.names{
+font-family: 'Merienda One', cursive;
+font-size:20px;
+color:white;
+text-decoration: none;
+list-style: none;
+  }
+  
+  

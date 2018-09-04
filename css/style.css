@@ -1,12 +1,13 @@
 *{
-        background: #262222;
+        background: rgba(109, 97, 97, 0.35);
     }
 
 
 canvas {position: absolute;
     top: 10px;
     left: 25%;
-    border:1px solid #d3d3d3;
-    background-color: rgba(132, 205, 208, 0.65);
+    border:1px solid #ffffff;
+    background-color: rgb(7, 10, 49);
     
 }
+
