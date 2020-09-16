@@ -16,7 +16,7 @@ function startGame()
         gameArea.start();
         collector = new component(130, 140, "images/collector.png", window.innerWidth/3 , window.innerHeight - 130, "image");
         points = new components("2vw", "arial", "white", 0, 40, "text");
-        score = new components( "2vw", "arial", "white", 600, 40, "text");
+        score = new components( "2vw", "arial", "white", 55ss0, 40, "text");
         gameOver = new components("60px", "arial", "blue", 220, 300, "text");
         collectSound = new sound("sounds/collect.mp3");
         blastSound = new sound("sounds/blast.mp3")
@@ -28,7 +28,7 @@ function startGame()
 var gameArea = {
         canvas : document.createElement("canvas"),
         start : function() {
-            this.canvas.width = window.innerWidth/2;
+            this.canvas.width = (window.innerWidth)/2;
             this.canvas.height = window.innerHeight-20;
             this.context = this.canvas.getContext("2d");
             document.body.insertBefore(this.canvas, document.body.childNodes[0]);
@@ -110,7 +110,7 @@ function component(width, height, img, x, y, type) {  //component is collector &
 
 
 
-function components(width, height, color, x, y, type) {    // componenetS is for TEXT ITEMS..
+function components(width, height, color, x, y, type) {    // componentS is for TEXT ITEMS..
             this.type = type;
             this.width = width;
             this.height = height;
@@ -218,7 +218,7 @@ function updateGameArea(){
 //CONDITION FOR KEY LISTNER
     
         if ( gameArea.key == 37) {if(collector.x > -20){collector.speedX = -10; }}
-        if ( gameArea.key == 39) {if(collector.x + collector.width/2 < 720){collector.speedX = 10; }}
+        if ( gameArea.key == 39) {if(collector.x + collector.width/2 < 645){collector.speedX = 10; }}
 
 //SCORE AND POINT UPDATE
     
