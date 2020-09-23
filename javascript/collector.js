@@ -16,7 +16,7 @@ function startGame()
         gameArea.start();
         collector = new component(130, 140, "images/collector.png", window.innerWidth/3 , window.innerHeight - 130, "image");
         points = new components("2vw", "arial", "white", 0, 40, "text");
-        score = new components( "2vw", "arial", "white", 55ss0, 40, "text");
+        score = new components( "2vw", "arial", "white", 550, 40, "text");
         gameOver = new components("60px", "arial", "blue", 220, 300, "text");
         collectSound = new sound("sounds/collect.mp3");
         blastSound = new sound("sounds/blast.mp3")
